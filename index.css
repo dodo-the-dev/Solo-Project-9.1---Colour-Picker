@@ -35,3 +35,17 @@ header {
   height: 43px;
   width: 61px;
 }
+
+/* Returned colours Section: */
+
+#colour-section {
+  height: 500px;
+  display: flex;
+  justify-content: stretch;
+  border: 1px solid white;
+}
+
+.returned-colour{
+  justify-content: stretch;
+  border: 2px solid red;
+}
