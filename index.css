@@ -1,0 +1,37 @@
+body {
+  background-color: #1F2937;
+  font-family: 'Prompt', sans-serif;
+  width: 500px;
+  margin: auto;
+  padding: 0;
+}
+
+/* Header styling */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+#colour-scheme, #get-colour-scheme {
+  color: #fff;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#colour-scheme {
+  background-color: inherit;
+  width: 270px;
+}
+
+#get-colour-scheme {
+  background-color: #3D4B60;
+  border:none;
+}
+
+#seed-colour {
+  height: 43px;
+  width: 61px;
+}
