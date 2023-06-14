@@ -40,12 +40,17 @@ header {
 
 #colour-section {
   height: 500px;
-  display: flex;
-  justify-content: stretch;
-  border: 1px solid white;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .returned-colour{
-  justify-content: stretch;
-  border: 2px solid red;
+  text-align: center;
+}
+
+.returned-colour > footer {
+  margin-top: 470px;
+  background-color: #3D4B60;
+  color:#fff;
+  padding: 5px;
 }
