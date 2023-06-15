@@ -1,6 +1,6 @@
 const colourArray = ["#F55A5A", "#2B283A", "#FBF3AB", "#AAD1B6", "#A626D3"]
 const colourSection = document.getElementById("colour-section")
-const seedColour = document.getElementById("seed-colour").value
+const seedColour = document.getElementById("seed-colour")
 
 
 for (let colour of colourArray){
@@ -12,5 +12,4 @@ for (let colour of colourArray){
   `
   document.getElementById(colour).style.backgroundColor = colour
 }
-
-console.log(seedColour)
+seedColour.addEventListener("input", () => console.log(seedColour.value))
