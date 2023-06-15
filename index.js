@@ -1,6 +1,9 @@
 const colourArray = ["#F55A5A", "#2B283A", "#FBF3AB", "#AAD1B6", "#A626D3"]
 const colourSection = document.getElementById("colour-section")
-const seedColour = document.getElementById("seed-colour")
+const seedColour = document.getElementById("seed-colour").value
+const colourScheme = document.getElementById("colour-scheme").value
+let seedValue = ""
+let schemeValue = ""
 
 
 for (let colour of colourArray){
@@ -12,4 +15,12 @@ for (let colour of colourArray){
   `
   document.getElementById(colour).style.backgroundColor = colour
 }
-seedColour.addEventListener("input", () => console.log(seedColour.value))
+
+
+  // seedValue = seedColour.addEventListener("input", ()=>  {return seedColour.value})
+
+
+  // schemeValue = colourScheme.addEventListener("input", () => {return colourScheme.value})
+
+  console.log(seedColour)
+  console.log(colourScheme)

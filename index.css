@@ -21,8 +21,8 @@ header {
   border-radius: 5px;
 }
 
-#colour-scheme {
-  background-color: inherit;
+#colour-scheme, .option {
+  background-color: #1F2937;
   width: 270px;
 }
 
