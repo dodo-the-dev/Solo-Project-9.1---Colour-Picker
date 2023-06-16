@@ -4,13 +4,9 @@ const fetchColourScheme = document.getElementById("fetch-colour-scheme")
 let seedValue = ""
 let schemeValue = ""
 
-
-
-
 function getSeedColour(){
   return document.getElementById("seed-colour").value.slice(1)
 }
-
 
 function getColourScheme(){
   return document.getElementById("colour-scheme").value  
